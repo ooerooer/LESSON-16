@@ -1,0 +1,86 @@
+.int_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.int_box {
+  flex-direction: column;
+  gap: 40px;
+  width: 1510px;
+  height: 100vh;
+}
+.int_box .int_bottom {
+  width: 200px;
+  border-bottom: 1px solid #ccc;
+}
+.int_box .int_bottom .box_init {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  caret-color: cadetblue;
+  font-size: 22px;
+}
+.int_box .int_bottom .box_init::-moz-placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box .int_bottom .box_init::placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box .int_bottom4 .box_init {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid cadetblue;
+  border-right: none;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  caret-color: cadetblue;
+  font-size: 22px;
+}
+.int_box .int_bottom4 .box_init::-moz-placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box .int_bottom4 .box_init::placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box .int_bottom6 {
+  width: 200px;
+  border-bottom: 1px solid red;
+}
+.int_box .int_bottom6 .box_init {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  caret-color: red;
+  font-size: 22px;
+}
+.int_box .int_bottom6 .box_init::-moz-placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box .int_bottom6 .box_init::placeholder {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}
+.int_box h3 {
+  font-size: 18px;
+  color: grey;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
